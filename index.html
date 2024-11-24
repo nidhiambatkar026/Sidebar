@@ -6,6 +6,10 @@
     <title>SideBar</title>
     <script src="https://kit.fontawesome.com/964923a91a.js" crossorigin="anonymous"></script>
     <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
         .SideBar{
             border-right: 4px solid grey;
             box-shadow: 0px 0px 5px 5px gray;
@@ -21,26 +25,33 @@
         .menu_columb{
             display: flex;
         }
+        .menu_text{
+            font-size: 30px;
+        }
+        .symbol{
+            height: 50px;
+            width: 50px;
+        }
     </style>
 </head>
 <body>
     <div class="SideBar">
         <h1 class="side_bar_heading">Categories</h1>
         <span class="menu_columb">
-            <i class="fa-solid fa-person-dress"></i>
-            <p>Women's Wear</p>
+            <i class="fa-solid fa-person-dress" ></i>
+            <p class="menu_text">Women's Wear</p>
         </span>
         <span class="menu_columb">
-            <i class="fa-solid fa-shirt"></i>
-            <p>Men's Wear</p>
+            <i class="fa-solid fa-shirt symbol"></i>
+            <p class="menu_text">Men's Wear</p>
         </span>
         <span class="menu_columb">
-            <i class="fa-solid fa-shoe-prints"></i>
-            <p>Men's Shoes</p>
+            <i class="fa-solid fa-shoe-prints symbol"></i>
+            <p class="menu_text">Men's Shoes</p>
         </span>
         <span class="menu_columb">
-            <i class="fa-solid fa-gem"></i>
-            <p>Accessories</p>
+            <i class="fa-solid fa-gem symbol"></i>
+            <p class="menu_text">Accessories</p>
         </span>
     </div>
 </body>
